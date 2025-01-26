@@ -68,38 +68,105 @@ body {
 }
 
 #botsend {
-  
+    display: inline-block;
+  animation: ;
     animation:animation ;
-    animation-duration: 2s ;
+    animation-duration: 5s;
     border: 1px solid transparent;
     border-radius: 20px;
     padding: 20px;
     overflow-wrap: break-word;
     width: 70%;
-    height: 1px;
+    height:fit-content;
     overflow: hidden;
     animation-fill-mode: forwards;
   
 }
+
+
+
+#pu{
+    color:black;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+    font-size: xx-large;
+    
+}
+#bani{
+   
+    margin-top: 15px;
+   
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color:white;
+   width: 50px;
+   height:30px;
+   
+    /* width: 20px;
+    padding: 1px;
+    height: 20px; */
+    animation:botanimation 3s ;
+   
+
+   
+    animation-fill-mode: forwards;
+}
+
+@keyframes botanimation{
+    0%{
+        opacity: 100%;
+        
+    }
+
+
+    50%{
+        opacity: 0%;
+       
+    }
+
+    75%{
+        opacity: 100%;
+        
+       
+    }
+    100%{
+        opacity:0%;
+        display: none;
+        
+    }
+
+}
 @keyframes animation {
 0%{
-    width: 25%;
-    height: 5px;
+    
+    display: none;
+    
+}
+
+25%{
+   
+    display: none;
 }
 
 50%{
-    width: 50%;
-    height: 15px;
+       
+        display: none;
+}
+
+75%{
+    display: block;
+    opacity: 50%;
 
 }
 
 100%{
-    width:75%;
-    height: fit-content;
+    opacity: 100%;
+   display: block;
    
 }
-
 }
+
 #userpic {
     top: 1px;
     height: 40px;
