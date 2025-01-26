@@ -22,7 +22,27 @@ function go() {
     chatarea.append(botpic);
     botpic.innerHTML = '<img id="bot" src="ai.jpg" alt="Bot">';
 
+
+    
+
     var botchat = document.createElement("div");
+
+    var botanim=document.createElement("div");
+
+    var pulli=document.createElement("p")
+
+   
+
+    pulli.id="pulli"
+
+        botanim.append(pulli);
+
+        botanim.id="bani";
+
+        botanim.innerHTML='<span id="pu">...</span>';
+   
+        chatarea.append(botanim);
+
     botchat.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, animi voluptates at amet nihil minima assumenda nulla tempore architecto. Perspiciatis, porro animi. Quod enim corrupti eos corporis assumenda rerum praesentium!";
     botchat.id = "botsend";
     chatarea.append(botchat);
